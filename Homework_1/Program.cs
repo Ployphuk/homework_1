@@ -11,7 +11,7 @@ class Program{
 
     static double function(double x){
 
-        if(x*x < 4 || x*x == 4){
+        if(x*x <= 4){
             return 2;
         }
         else {
