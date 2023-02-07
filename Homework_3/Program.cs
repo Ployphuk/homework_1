@@ -16,7 +16,7 @@ class Program{
         }else if( x > 0 && x <=1){
             return -Math.Sqrt(1-Math.Pow(x,2));
         }else if( x <= -1){
-            return (x+2);
+            return Cal(x+2);
         }else{
             return Cal(x-2);
         }
